@@ -4,18 +4,20 @@ import Total from "./Total"
 
 
 
-const  App = () => {
-  const course = "Half Stack application development"
-  
+const App = () => {
+  const course = 'Half Stack application development'
  
 
-  return(
+  return (
     <div>
       <Header course={course}/>
       <Content />
       <Total/>
     </div>
   )
-
 }
+  
+ 
+
+ 
 export default App

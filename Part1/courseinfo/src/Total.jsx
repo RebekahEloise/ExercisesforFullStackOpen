@@ -1,15 +1,14 @@
-const Total = ()=>{
-    
-  const exercises1 = 10
-  
-  const exercises2 = 7
-  
-  const exercises3 = 14
+import part1 from "./Part1";
+import part2 from "./Part2";
+import part3 from "./Part3";
 
+
+const Total = ()=>{
+  
 
   return(
     <div>
-         <p>Number of exercises {exercises1 + exercises2 + exercises3}</p>
+         <p>Number of exercises: {part1.exercises}+{part2.exercises}+{part3.exercises}</p>
     </div>
   )
 

@@ -1,12 +1,13 @@
 const Part3 = () =>{
-    const part3 = 'State of a component'
-    const exercises3 = 14
-
+  const part3 = {
+    name: 'State of a component',
+    exercises: 14
+  }
 
     return (
         <div>
       <p>
-        {part3} {exercises3}
+        {part3.name} {part3.exercises}
       </p>
         </div>
     )
